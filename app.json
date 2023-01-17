@@ -1,0 +1,14 @@
+{
+  "name": "arayasamaj_hyderabad",
+  "description": "Certified Marriages according to the The Arya Marriage Validation Act, 1937",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
