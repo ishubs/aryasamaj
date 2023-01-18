@@ -1,12 +1,17 @@
 import React from 'react'
 import Script from 'next/script'
 export const GoogleAnalytics = () => {
-    return <><Script async src="https://www.googletagmanager.com/gtag/js?id=G-T9GN8LT5MX"></Script>
+    return <><Script async src="https://www.googletagmanager.com/gtag/js?id=AW-718756413"></Script>
         <Script>
-            {`window.dataLayer = window.dataLayer || [];
+            {`<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-718756413"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-T9GN8LT5MX');`}
+  gtag('config', 'AW-718756413');
+</script>
+`}
         </Script></>
 }
