@@ -29,7 +29,7 @@ const SubscribeUs = () => {
             description="Aryasamaj Chengicherla has performed more than 5000 marriages since 2013"
           />
           <Box  sx={styles.subscribe}>
-            <a style={{textDecoration: "none",flexGrow:"0.5"}} href="tel:+6199942413">
+            <a style={{textDecoration: "none",flexGrow:"0.5"}} href="tel:+919701891862">
               <Button variant="primary">Call Us</Button>
               </a>
           </Box>

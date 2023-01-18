@@ -31,7 +31,7 @@ const Banner = () => {
               <Text as="h2">
                 Want to Book a marriage?
                 </Text>
-              <a style={{textDecoration: "none"}} href="tel:+6199942413">
+              <a style={{textDecoration: "none"}} href="tel:+919701891862">
               <Button variant="primary">Book Now</Button>
               </a>
             </Box>

@@ -42,7 +42,7 @@ const ExcitingFeatures = () => {
       <Container>
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.illustration}>
-            <Image src={feature} alt="feature" />
+            {/* <Image src={feature} alt="feature" /> */}
           </Box>
           <Box sx={styles.rightContent}>
             <SectionHeading
