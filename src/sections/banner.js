@@ -25,7 +25,7 @@ const Banner = () => {
             Certified Marriages under Arya Marriage Validation Act, 1937
             </Heading>
             <Text as="p">
-              Aryasamaj chengicherla spreads the philosophy of Swami Dayanand Saraswati since 2014. Having performed 500+ Certified marriages Aryasamaj chengicherla is the most authentic organization in Hyderabad
+              Aryasamaj chengicherla spreads the philosophy of Swami Dayanand Saraswati since 2014. Having performed 5000+ Certified marriages Aryasamaj chengicherla is the most authentic organization in Hyderabad
             </Text>
             <Box sx={styles.subscribe}>
               <Text as="h2">
