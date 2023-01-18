@@ -3,7 +3,7 @@ import Router from 'next/router';
 import { initGA, logPageView } from 'analytics';
 import 'assets/css/react-slick.css';
 import 'rc-drawer/assets/index.css';
-
+import { GoogleAnalytics } from 'components/analytics/google';
 export default function CustomApp({ Component, pageProps }) {
   useEffect(() => {
     initGA();
@@ -11,5 +11,5 @@ export default function CustomApp({ Component, pageProps }) {
     Router.events.on('routeChangeComplete', logPageView);
   }, []);
 
-  return <Component {...pageProps} />;
+  return <><GoogleAnalytics /><Component {...pageProps} /></> ;
 }
