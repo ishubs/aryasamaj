@@ -10,11 +10,9 @@ import {
   Image,
   Button,
 } from 'theme-ui';
-import Input from 'components/input';
+
 import banner from 'assets/images/banner.jpeg';
-import paypal from 'assets/images/paypal.png';
-import google from 'assets/images/google.png';
-import dropbox from 'assets/images/dropbox.png';
+
 import { rgba } from 'polished';
 
 const Banner = () => {
@@ -30,6 +28,9 @@ const Banner = () => {
               Aryasamaj chengicherla spreads the philosophy of Swami Dayanand Saraswati since 2014. Having performed 500+ Certified marriages Aryasamaj chengicherla is the most authentic organization in Hyderabad
             </Text>
             <Box sx={styles.subscribe}>
+              <Text as="h2">
+                Want to Book a marriage?
+                </Text>
               <a style={{textDecoration: "none"}} href="tel:+6199942413">
               <Button variant="primary">Book Now</Button>
               </a>
@@ -53,7 +54,8 @@ const styles = {
     gap: [0, 0, 0, 0, 40],
     alignItems: 'center',
     minHeight: [null, null, '100vh', '70vh', '50vh', '100vh'],
-    pt: ['100px', null, null, '130px', '25px', null, 0],
+    pt: ['100px', null, null, '130px', '100px', '100px', '100px'],
+    pb: ['100px', null, null, '130px', '100px', '100px', '100px'],
     textAlign: ['center', null, 'left'],
   },
   content: {
@@ -77,6 +79,7 @@ const styles = {
   subscribe: {
     display: 'flex',
     alignItems: 'center',
+    justifyContent: 'space-between',
     mt: ['30px'],
     input: {
       mr: ['15px'],

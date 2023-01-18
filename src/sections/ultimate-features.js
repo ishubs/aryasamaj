@@ -58,7 +58,7 @@ const data = [
 
 const UltimateFeatures = () => {
   return (
-    <Box as="section" id="features" variant="section.ultimateFeatures">
+    <Box as="section" id="marriages" variant="section.marriages">
       <Container>
         <SectionHeading
           sx={styles.heading}

@@ -36,7 +36,7 @@ const data = [
 
 const WorkHard = () => {
   return (
-    <Box as="section" variant="section.workHard">
+    <Box as="section" id="marriages" variant="section.marriages">
       <Container>
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.rightContent}>

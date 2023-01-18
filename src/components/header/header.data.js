@@ -8,11 +8,11 @@ export default [
     label: 'Services',
   },
   {
-    path: 'features',
-    label: 'Marriages',
+    path: 'marriages',
+    label: 'Documents',
   },
-  {
-    path: 'blog',
-    label: 'Blog',
-  }
+  // {
+  //   path: 'blog',
+  //   label: 'Blog',
+  // }
 ];
